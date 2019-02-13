@@ -38,11 +38,11 @@ def can_be_created_in_a_block(args)
 end
 
 def can_get_the_first_item_in_the_database
-  __
+  binding.pry
 end
 
 def can_get_the_last_item_in_the_database
-  DB[:conn].execute("SELECT last_insert_rowid() FROM #{movies}")
+  ___
 end
 
 def can_get_size_of_the_database
